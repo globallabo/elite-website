@@ -15,6 +15,8 @@ $light-grey: #e6e6e6;
 $white-text: #ffffff;
 
 $primary-width: 960px;
+$secondary-width: 900px;
+$tertiary-width: 650px;
 
 $logobar-height: 160px;
 
@@ -499,19 +501,20 @@ main section#contact .contact-form form input[type="submit"] {
   padding: 10px 30px;
 }
 
-main section#contact .phone-and-address {
-  width: 800px;
+main section#contact .phone-and-logo {
+  width: $secondary-width;
   margin-top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main section#contact .phone-and-address h2 {
+main section#contact .phone-and-logo h2 {
   margin: 0;
-  font-size: 1.6rem;
+  font-size: 2.3rem;
+  font-weight: 500;
   text-align: center;
 }
-main section#contact .phone-and-address .phone {
+main section#contact .phone-and-logo .phone {
   margin: 0;
 }
 main section#contact .telelphone-label {
@@ -525,30 +528,17 @@ main section#contact .telelphone-number {
   font-weight: 500;
   line-height: 100%;
 }
-main section#contact .logo-and-address {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-end;
-  margin-top: 1rem;
+main section#contact .logo {
+  margin-top: 3rem;
 }
-main section#contact .logo-and-address img {
+main section#contact .logo img {
   width: 250px;
 }
-main section#contact .address {
-  margin-left: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-main section#contact .address p {
+main section#contact .logo p {
   margin: 0;
   font-size: 1.6rem;
-  font-weight: 400;
-  line-height: 120%;
-}
-main section#contact .address p.company-name {
   font-weight: 600;
+  text-align: center;
 }
 
 // Styling for Form Submitted page
