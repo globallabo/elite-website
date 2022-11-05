@@ -1,3 +1,5 @@
 # Elite Business English Website
 
-This is a website for the Elite Business English Curriculum's website. The design was given as a PDF and all the HTML and CSS were made by hand.
+![Elite Business English Website screenshot](/elite-website.png "Elite Business English Website screenshot")
+
+This is a custom landing page for the Elite Business English curriculum. A design was given as PDF and the web page was developed from scratch using HTML and CSS/SCSS.
